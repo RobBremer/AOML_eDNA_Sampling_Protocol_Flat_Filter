@@ -64,11 +64,9 @@ filter_material: polyethersulfone
 
 | PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Sean Anderson | NOAA/AOML, MSU/NGI | <https://orcid.org/0000-0003-3096-1120> | 2023-11-27 |
-| Luke Thompson | NOAA/AOML, MSU/NGI | <https://orcid.org/0000-0002-3911-1280> | 2023-11-27 |
-| Sammy Harding | NOAA/AOML, MSU/NGI | <https://orcid.org/0009-0008-8885-6140> | 2026-03-12 |
-| Alyse Larkin | UC-Irvine | <https://orcid.org/0000-0003-4466-0791> | 2023-11-27 |
-| Adam Martiny | UC-Irvine | <https://orcid.org/0000-0003-2829-4314> | 2023-11-27 |
+| Christopher Sinigalliano | NOAA/AOML | <https://orcid.org/0000-0002-9942-238X> |  |
+| Maribeth Gidley | NOAA/AOML, UM/CIMAS |  |  |
+| Robert Bremer | NOAA/AOML, UM/CIMAS | <https://orcid.org/0009-0001-9057-7289> | 2026-06-08 |
 
 ### Related Protocols
 
@@ -112,29 +110,28 @@ filter_material: polyethersulfone
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-| GO-SHIP | Global Ocean Ship-based Hydrographic Investigations Program |
 | NOAA | National Oceanic and Atmospheric Administration |
 | AOML | Atlantic Oceanographic and Meteorological Laboratory |
-| MSU | Mississippi State University |
-| NGI | Northern Gulf Institute |
+| UM | University of Miami |
+| CIMAS | Cooperative Institute for Marine and Atmospheric Studies |
 | eDNA | environmental DNA |
 
 ### Glossary
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Field negative control | Negative control created during sampling. Usually distilled (DI) water run through a Sterivex filter in place of a seawater eDNA sample. This will act as a control for contamination during field sampling. |
+| Field negative control | Negative control created during sampling. Usually distilled (DI) or DNAse RNAse free water run through a comparable filter in place of a seawater eDNA sample. This will act as a control for contamination during field sampling. |
 | Niskin bottle | Plastic cylindrical bottle used for collecting water samples at different depths. Comes in a variety of volumes. |
 
 ## BACKGROUND
 
 ### Summary
 
-This protocol describes collection and filtration of marine [environmental DNA](target) samples using Sterivex cartridge filters and can be adapted to collect water samples from individual [Niskin bottle](samp_collect_device), [CTD rosette](samp_collect_method), or flow through systems. This protocol is used by [NOAA's Atlantic Oceanographic and Meteorological Laboratory](publisher) GO-SHIP collaborators.
+This protocol describes collection and filtration of marine [environmental DNA](target) samples using flat filters and can be adapted to collect water samples from individual [Niskin bottle](samp_collect_device), [CTD rosette](samp_collect_method), or flow through systems. This protocol is used by [NOAA's Atlantic Oceanographic and Meteorological Laboratory](publisher) and their collaborators.
 
 ### Method description and rationale
 
-This protocol is used to pump [sea water](environmental_medium) samples collected via [Niskin bottle](samp_collect_device), [CTD rosette](samp_collect_method), or flow through systems and pump it through a 0.22 uM Sterivex filter using a peristaltic pump. The recommended filtration volume for GO-SHIP samples is ~8 liters, which takes ~2 hours. Precautions are taken to minimize contamination of samples by thoroughly sterilizing all equipment prior to use. 
+This protocol is used to pump [sea water](environmental_medium) samples collected via [Niskin bottle](samp_collect_device), [CTD rosette](samp_collect_method), or flow through systems and pump it through a 0.22 uM or .45 uM filter using a vacuum pump. The recommended filtration volume for coastal samples is 1-2 liters, which takes ~1 hour. Precautions are taken to minimize contamination of samples by thoroughly sterilizing all equipment prior to use. 
 
 ### Spatial coverage and environment(s) of relevance
 
@@ -146,7 +143,7 @@ One person with pipetting experience. Research vessel experience is recommended 
 
 ### Safety
 
-There are no major safety concerns with this protocol. Standard precautions should be taken such as wearing PPE at all times to avoid skin and eye exposure especially when working with bleach.
+This protocol utilizes flame-sterilization. Flammable liquids such as ethanol should be treated with care as to not ignite large volumes or within close proximity to sampling personnel in order to avoid burns. Standard precautions should be taken such as wearing PPE at all times to avoid skin and eye exposure especially when working with bleach.
 
 ### Training requirements
 
@@ -154,29 +151,27 @@ Standard molecular biology training including sterile technique and pipetting te
 
 ### Time needed to execute the procedure
 
-The process of setting up sampling equipment and filtering seawater will take ~2 hours ([120](time_required) minutes) depending on number of samples.
+The process of setting up sampling equipment and filtering seawater will take ~1.5 hours ([90](time_required) minutes) depending on number of samples.
 
 ## EQUIPMENT
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** | 
+| Sample Bottles | 1 L Plastic Sample Bottle | Generic Brand | Depends on # of Samples | Size can vary, material must be autoclavable | 
 | 20 L carboy | 20 L Nalgene carboy | Generic brand | 1 | |
-| 8 L carboy | 8 L Nalgene carboy | Generic brand | 1 | Used to hold bleach solution |
-| Peristaltic pump | Masterflex peristaltic pump | Cole Parmer | 1 | |
-| Pump heads | Masterflex L/S Easy-Load II Pump Heads for Precision Tubing | Avantor | 3 | The greater the # of pump heads, the faster the sampling process |
-| Pump tubing | Masterflex Precision Pump Tubing, Peroxide-Cured Silicone | EW-96400-24 | Cole Parmer | 3 | Depends on # of pump heads |
-| Hose-barb adapter | Masteflex fitting, Male Luer Lock to Hose Barb Adapter | Cole-Parmer | 3 | Depends on # of pump tubes |
-| Serological pipette | 10 mL Serological Pipette | Generic brand | 3 | Depends on # of pump tubes|
-| 2 L graduated cylinders | Graduated cylinder - 2 L | Generic brand | 3 | Depends on # of samples being pumped at once, can be substituted with carboys which tubing will be directly attached to (no serological pipets) using adapters |
+| 20 L carboy Lid | Sealing 20 L carboy lid with ports | Nalgene or Generic Brand | 1 | |
+| Vacuum pump | GAST Compressor/Vacuum pump pump | GAST | 1 | |
+| Pump tubing | Masterflex Precision Pump Tubing, Peroxide-Cured Silicone EW-96400-24 | Cole Parmer | 2 | Depends on # of filtering manifolds |
+| Hose-barbs | Hose Barb | Cole-Parmer | 1 | Depends on # of manifolds |
+| Pipette Bulb | Valved Pipette Aspirator/Bulb | Cole-Palmer | 1 | Can also use a mechanical pipette filler |
 | -20 °C freezer | -20 °C commercial chest freezer | Generic brand | 1 | |
 | **Consumable equipment** |
-| Sterivex filter | Millipore Sterivex-GP Pressure Filter Unit, 0.22µm pore size | Millipore Sigma | 175 | Quantity depends on number of samples desired, remember to account for negative control field blanks |
-| Inlet (male) luer-lock cap | MasterFlex Male Luer Lock Plug | VWR | 175 | Depends on # of samples, one per Sterivex |
-| Outlet (female) luer-lock cap | MasterFlex Female Luer Thread Style Cap | VWR | 175 | Depends on # of samples, one per Sterivex |
-| Pre-printed Cryo-Babies labels | Cryo-Babies LCRY-1700 | Diversified Biotech | 175 | Depends on # of samples, one per Sterivex |
-| 60 mL syringe with male luer-lock outlet | Disposable syringe with luer lock - 60 mL | Generic brand | 1 | Used for sterilizing tubing |
-| Sterile collection bags | Whil-Pak collection bags | Cole Parmer | 1 box | Various sizes can be used for water collection |
+| Flat filter | Banded Membrane 47mm White, 0.45µm Grid | ThermoScientific | 100 | Quantity depends on number of samples desired, remember to account for negative control field blanks |
+| Flat filter | Banded Membrane 47mm White, 0.22µm Grid | ThermoScientific | 100 | Quantity depends on number of samples desired, remember to account for negative control field blanks |
+| Pre-printed Cryo-Safe labels | Cryo-Babies LCRY-1700 | Diversified Biotech | 100 | Depends on # of samples, one per sample ||
+| 2 ml Microcentrifuge Tube | Screw Cap Self Standing Microcentrifuge Tubes | Generic Brand | 100 | Depends on # of samples, one per sample |
+| 1000uL Pipette Tip | Sterile pipetter tips | Generic Brand | 1 box | 
 | Gloves | Powder-free nitrile gloves | Generic brand | 1 | (box) Can be any generic brand of gloves |
 | Field notebook | Hard cover notebook | Generic brand | 1 | Encouraged to keep a digital sample log in addition to written notes |
 | **Chemicals** |
@@ -199,27 +194,26 @@ The process of setting up sampling equipment and filtering seawater will take ~2
 
 #### Preparing Sampling Equipment
 
-1. Prepare a 1:20 dilution bleach solution by mixing 1 part household bleach (5-9% sodium hypochlorite) with DI water and storing in an 8 L carboy.
-2. Attach hose-barb adapter to one end of peristaltic pump tubing.
-3. Attach serological pipette to other end of peristaltic pump tubing.
-4. Sterilize 60 mL syringe with 1:20 dilution bleach solution.
-5. Rinse 20-L carboy 2 times with ~100 mL of sample water (200 mL total)
-6. Wearing gloves, collect water from the flow-through system (or Niskin bottles) into 20-L carboy.
-7. Place serological pipettes into bag(s) or bottle(s), ensuring the other end of the tubing (with hose-barb) is flowing into the graduated cylinders.
-8. Turn on the pump and run ~100 mL of seawater to prime the tubing.
-9. Run the pump at 100-150 rpm.
-10. Pause the pump and discard water.
+1. Attach tubing from the end of the filtering manifold to the lid of the carboy.
+2. Attach tubing from the other port on the carboy lid to the inlet of the vacuum pump.
+3. Fill 2ml tubes with 1000uL of DNA/RNA Shield.
+4. Sterilize all filter funnel cups and sample bottles.
+5. Collect sample water from Niskin bottle or flow-through system into a sterile sample bottle. Close cap on sample bottle. Avoid handling the sample bottle near the threads when open.
+6. Gently place bottle in ice within a cooler to avoid damaging bottle.
+
 
 #### Sample Filtration
 
-1. Attach the Sterivex filter inlet to the hose-barb end of the tubing. The filter should screw on tightly. Avoid handling Sterivex filter inlet or outlet ends.
-2. Run the pump and filter seawater until ~8 L has been filtered, measured using the graduated cylinders or another container.
-3. On the log sheet, record the date, time, latitude, longitude, volume filtered and any notes about the sample. This information should be entered into an Excel spreadsheet every few days to maintain a digital copy in addition to the paper copy.
-4. Pause pump and open pump head valves to release pressure.
-5. Unscrew and remove Sterivex filters from the hose-barb adapters.
-6. Gently remove any excess seawater from the filters using a sterilized 60 mL syringe.
-7. Cap the the top end (inlet) of the Sterivex with a male luer-lock cap and bottom end (outlet) of the Sterivex filter with a female luer-lock cap.
-8. In between filtering different water samples, rinse out the tubing with 1:20 dilution bleach solution, followed by DI water. Then proceed with the next volume of seawater.
+1. Remove top of a sterile funnel filter cup. Repeat for each sample being filtered.
+2. Using a pair of flame sterilized forceps, place a new flat filter at the base of the funnel filter cup. Repeat for each sample being filtered. Replace the top of the cup over the flat filter.
+3. Fill the filter cup with sample water. Ensure to record the cumulative volume that is filtered through each filter.
+4. Open valve and turn pump on to begin sucking sample water through the filter.
+5. Once there is no water left in the cup and the filter has just dried, turn the pump off. Remove the top half of the cup, exposing the filter.
+6. If the filter clogs before the water has been fully pumped through the filter, remove the remaining water using a sterile serological pipette.
+7. Using a pair of sterilized forceps, fold the filter two times into a long cylindrical shape. Using the forceps, place the filter in a tube filled with 1000uL of DNA/RNA Shield.
+8. On the log sheet, record the date, time, latitude, longitude, volume filtered and any notes about the sample. This information should be entered into an Excel spreadsheet every few days to maintain a digital copy in addition to the paper copy.
+9. Gently remove any excess seawater from the filters using a sterilized 60 mL syringe.
+10. In between filtering different water samples, rinse out the tubing with 1:20 dilution bleach solution, followed by DI water. Then proceed with the next volume of seawater.
 
 #### Storage
 
@@ -227,12 +221,13 @@ The process of setting up sampling equipment and filtering seawater will take ~2
 
 #### Post-Sampling
 
-1. Run ~1 L of 5% bleach through the lines to clean pump tubing. Repeat with ~1 L of deionized water.
-2. Rinse the 20 L collection carboy 3 times with ~0.5 L DI water (1.5 L total) after sampling.
+1. Autoclave all bottles used to collect seawater.
+2. Autoclave all filter manifold cups use to filter seawater.
+3. If you do not have access to an autoclave, rinse bottles and manifold cups with 10% bleach, then either DI water or DNAse/RNAse free water.
 
 ### Quality control
 
-Negative field controls are included with every research cruise. DI water is filtered in place of sample water. These Sterivex are stored the same as other sample Sterivex.
+Negative field controls are included with every research cruise. DI or DNAse/RNAse free water is filtered in place of sample water. These filters are stored the same as other sample filters.
 
 ### Basic troubleshooting guide
 
