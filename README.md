@@ -177,6 +177,7 @@ The process of setting up sampling equipment and filtering seawater will take ~1
 | **Chemicals** |
 | 5-9% Sodium hypochlorite | Household bleach | Generic brand | 1 | (bottle) Dilute 1:20 for lab use |
 | Deionized or Milli-Q water | DI water | Generic brand | 8 | (L) Can use ship's DI water |
+| DNA/RNA Shield | DNA/RNA Shield | Zymo | 50 mL | Depends on # of samples, 1000uL per sample |
 
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
