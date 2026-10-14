@@ -1,51 +1,57 @@
 # AOML_eDNA_Sampling_Protocol_Flat_Filter
 
 ---
-# MIOP terms
-methodology_category: sample collection
-project: "NOAA Atlantic Oceanographic and Meteorological Laboratory Omics Program; https://github.com/aomlomics/protocols; https://zenodo.org/communities/aomlomics"
-purpose: biodiversity assessment objective [OBI:0001969]
-analyses: filtration [OBI:0302885], environmental material collection process [OBI:0600012]
-geographic_location: Atlantic Ocean [GAZ:00000344], Pacific Ocean [GAZ:]
-broad_scale_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-environmental_medium: sea water [ENVO:00002149]
-target: environmental DNA [NCIT:C169106]
-creator: Sean Anderson, Luke Thompson, Alyse Larkin, Adam Martiny
-materials_required: filtration [OBI:0302885]
-skills_required: sterile technique, pipetting skills, standard molecular technique, research vessel experience
-time_required: 120
-personnel_required: 1
-language: en
-issued: 2026-03-12
-audience: scientists
-publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
-hasVersion: 1
-license: CC0 1.0 Universal
-maturity level: mature
+### MIOP Terms
 
-# FAIRe terms
-samp_category: sample
-env_broad_scale: marine biome [ENVO:00000447]
-env_local_scale: marine photic zone [ENVO:00000209]
-env_medium: sea water [ENVO:00002149]
-habitat_natural_artificial_0_1: 0
-samp_collect_method: CTD rosette
-samp_collect_device: Niskin bottle
-samp_size: 1000
-samp_size_unit: mL
-samp_store_temp: -80
-samp_store_sol: not applicable
-samp_mat_process: Samples were filtered using a peristaltic pump (pore size 0.45 micrometers).
-filter_passive_active_0_1:  1
-prefilter_material: not applicable
-size_frac_low: not applicable
-size_frac: 0.22
-filter_diameter: not applicable
-filter_material: polyethersulfone
+| Term | Value |
+| :--- | :--- |
+| **Methodology Category** | sample collection |
+| **Project** | NOAA Atlantic Oceanographic and Meteorological Laboratory Omics Program; https://github.com/aomlomics/protocols; https://zenodo.org/communities/aomlomics |
+| **Purpose** | biodiversity assessment objective [OBI:0001969] |
+| **Analyses** | filtration [OBI:0302885], environmental material collection process [OBI:0600012] |
+| **Geographic Location** | Atlantic Ocean [GAZ:00000344], Pacific Ocean [GAZ:] |
+| **Broad Scale Environmental Context** | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209] |
+| **Local Environmental Context** | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine photic zone [ENVO:00000209] |
+| **Environmental Medium** | sea water [ENVO:00002149] |
+| **Target** | environmental DNA [NCIT:C169106] |
+| **Creator** | Christopher Sinigalliano, Maribeth Gidley, Robert Bremer |
+| **Materials Required** | filtration [OBI:0302885] |
+| **Skills Required** | sterile technique, pipetting skills, standard molecular technique, research vessel experience |
+| **Time Required (min)** | 120 |
+| **Personnel Required** | 1 |
+| **Language** | en |
+| **Issued** | 2026-03-12 |
+| **Audience** | scientists |
+| **Publisher** | NOAA Atlantic Oceanographic and Meteorological Laboratory |
+| **Version** | 1 |
+| **License** | CC0 1.0 Universal |
+| **Maturity Level** | mature |
+
+### FAIRe Terms
+
+| Term | Value |
+| :--- | :--- |
+| **samp_category** | sample |
+| **env_broad_scale** | marine biome [ENVO:00000447] |
+| **env_local_scale** | marine photic zone [ENVO:00000209] |
+| **env_medium** | sea water [ENVO:00002149] |
+| **habitat_natural_artificial_0_1** | 0 |
+| **samp_collect_method** | CTD rosette |
+| **samp_collect_device** | Niskin bottle |
+| **samp_size** | 1000 |
+| **samp_size_unit** | mL |
+| **samp_store_temp** | -80 |
+| **samp_store_sol** | not applicable |
+| **samp_mat_process** | Samples were filtered using a vacuum pump (pore size 0.45 micrometers). |
+| **filter_passive_active_0_1** | 1 |
+| **prefilter_material** | not applicable |
+| **size_frac_low** | not applicable |
+| **size_frac** | 0.22 or 0.45 |
+| **filter_diameter** | not applicable |
+| **filter_material** | mixed cellulose ester |
 ---
 
-# NOAA/AOML Water Sampling Protocol using Sterivex (Dry)
+# NOAA/AOML Water Sampling Protocol using Flat Filter (Dry)
 
 ## PROTOCOL INFORMATION
 
@@ -72,7 +78,7 @@ filter_material: polyethersulfone
 
 - This section contains protocols that should be known to users of this protocol.
 - Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
-- External Protocols: Protcols from manufacturers or other groups. 
+- External Protocols: Protocols from manufacturers or other groups. 
 - Include the link to each protocol.
 - Include the version number (internal) or access date (external) of the protocol when it was accessed.
 
@@ -97,14 +103,8 @@ filter_material: polyethersulfone
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2023-11-27 | Initial release |
-| 1.0.1 | 2024-10-23 | Formatting edits |
-| 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML front matter |
-| 1.2.0 | 2025-01-08 | Clarified the concentration of bleach throughout |
-| 1.2.1 | 2025-04-22 | Corrected storage temperature |
-| 1.2.2 | 2025-12-15 | Updated YAML front matter |
-| 1.2.3 | 2026-01-16 | Updated YAML front matter |
-| 1.3.0 | 2026-03-18 | Copied and modified from NOAA/AOML Water Sampling Protocol using Sterivex (Beads) |
+| 1.0.0 | 2023-11-27 | Initial release: Copied and modified from NOAA/AOML Water Sampling Protocol using Sterivex (Dry) |
+
 
 ### Acronyms and Abbreviations
 
@@ -189,15 +189,15 @@ The process of setting up sampling equipment and filtering seawater will take ~1
 
 ### Sampling Protocol
 
-#### Preparing Sterivex Filters
+#### Preparing Tubes
 
-1. Wearing gloves, prepare the Sterivex filters by opening sealed package and labeling each Sterivex filter with a pre-printed sticker.
+1. Wearing gloves, prepare 2 mL tubes by labelling them with a sticker to differentiate each unique sample. 
 
 #### Preparing Sampling Equipment
 
 1. Attach tubing from the end of the filtering manifold to the lid of the carboy.
 2. Attach tubing from the other port on the carboy lid to the inlet of the vacuum pump.
-3. Fill 2ml tubes with 1000uL of DNA/RNA Shield.
+3. (Optional) Fill 2ml tubes with 1000uL of DNA/RNA Shield.
 4. Sterilize all filter funnel cups and sample bottles.
 5. Collect sample water from Niskin bottle or flow-through system into a sterile sample bottle. Close cap on sample bottle. Avoid handling the sample bottle near the threads when open.
 6. Gently place bottle in ice within a cooler to avoid damaging bottle.
